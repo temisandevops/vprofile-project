@@ -26,7 +26,8 @@
 	<sonar.host.url>http://172.31.91.23:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin123</sonar.password>
-	<sonar.java.binaries>target/classes</sonar.java.binaries>
+	<sonar.java.binaries>${project.build.directory}/classes</sonar.java.binaries>
+
     </properties>
 
     <dependencies>
